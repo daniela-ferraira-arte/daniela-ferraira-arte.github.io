@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+width: 200%;
+margin: 0;
+max-width: 1920px;
+background-color: #c5a3b7;
+}
+
+html{
+    font-size: 35px;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.frasepintor{
+    text-align: right;
+    font-size: 25%  ;
+    font-family: 'Chelsea Market', cursive;
+}
+section{
+    color: rgb(179, 121, 121);
+    padding: 2em;
+}
+#seccion1{
+    background-color: #a5767b;
+    font-size: 400%;
+    text-align: start;
+    padding: 1.5em;
+    color: #dbd0ce;
+    font-weight: 500;
+    font-family: 'Sacramento', cursive;
+}
+#seccion2{
+    background-color: #f3d3d1;
+
+}
+
+#seccion3{
+    background-color: #dbd0ce;
+    
+    }
+
+#seccion4{
+    background-color: #e7b2b2;
+}
+#seccion5{
+    background-color: #f3d3d1;
+
+}
+
+footer{
+    padding: 0.5em;
+    height: unset;
+    font-size: 20px;
+    background-color: rgb(44, 18, 18);
+    color: rgb(190, 155, 155);
+    text-align: right;
+}
+
+a:link{
+    color: #724b4f;
+}
+a:visited{
+    color:#724b4f
+}
+
+a:hover{
+font-style: bold;
+}
+
+#logo{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+}
+p+img{
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* #cel+#logowathsapp{
+display: flex;
+flex-direction: row-reverse;
+} */
+
